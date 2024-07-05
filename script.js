@@ -1,10 +1,36 @@
 alert("Bienvenid@ a mi web")
+
+let cuenta = prompt("Ingrese un número");
+let numero = 0;
+
+while (numero < cuenta) {
+  console.log(numero);
+  numero++;
+}
+
+alert("Gracias");
+
+
+let contador1 = 10;
+   while (contador1 >=0){
+   alert(contador1)
+   contador1--
+   }
+
+   
 alert("¡ERROR! Completa todos los campos")
 
 let nombre = "luna";
 let edad = "25";
 let numeroDeVentas = 50;
 let saldoDisponible = 1000; 
+
+let contador = 1;
+  while(contador <=10) {
+    console.log(contador1)
+   alert(contador);
+   contador++
+  }
 
 let mensajeDeERROR = "¡ERROR CRITICO!";
 alert(mensajeDeERROR)
