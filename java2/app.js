@@ -14,6 +14,21 @@ function JS() {
     alert("Yo AMO JS")
 }
 
+function saludar() {
+  console.log("¡Hola, mundo!");
+}
+
+saludar();
+
+let nombre = prompt("Cual es su nombre?")
+function saludo() {
+  console.log("Hola" + nombre);
+}
+
+saludo();
+
+
+
 
 function cuenta() {
     let numero1 = parseFloat(prompt("Ingrese el primer número:"));
