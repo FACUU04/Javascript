@@ -6,7 +6,7 @@ const error404 = document.querySelector('.no-funciona');
 
 buscar.addEventListener('click', () => {
 
-    const APIKey = '0b3896690d75103f7aa7c9635470df56';
+    const APIKey = 'YOUR API KEY';
     const city = document.querySelector('.buscar input').value;
 
     if (city === '')
