@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather app</title>
+</head>
+<body>
+<div class="container">
+    <div class="buscar">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Ingrese su ubicacion">
+        <button class="fa-solid fa-magnifying-glass"></button>
+    </div>
+
+    <div class="no-funciona">
+        <img src="404.png">
+        <p>Oops! Ubicacion invalida</p>
+    </div>
+
+    <div class="weather-box">
+        <img src="">
+        <p class="temperatura"></p>
+        <p class="descripcion"></p>
+    </div>
+
+    <div class="weather-detalles">
+        <div class="humedad">
+            <i class="fa-solid fa-water"></i>
+            <div class="text">
+                <span></span>
+                <p>Humedad</p>
+            </div>
+        </div>
+
+        <div class="viento">
+            <i class="fa-solid fa-wind"></i>
+            <div class="text">
+                <span></span>
+                <p>Velocidad del viento</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="https://kit.fontawesome.com/66607930a9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
